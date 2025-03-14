@@ -27,7 +27,7 @@ const Formulario = ({ navigation }) => {
   };
 
   return (
-    <ImageBackground source={require("./background.jpg")} style={styles.background}>
+    <ImageBackground source={require("../images/background.jpg")} style={styles.background}>
       <View style={styles.container}>
         <Text style={styles.title}>Calculadora de Preço</Text>
         <TextInput
